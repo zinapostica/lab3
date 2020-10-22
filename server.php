@@ -7,7 +7,7 @@ $email    = "";
 $errors = array();
 
 // connect to the database
-$db = mysqli_connect("remotemysql.com", "ST6rBsxjQT", "dra8F6BIRB");
+$db = mysqli_connect("remotemysql.com", "ST6rBsxjQT", "dra8F6BIRB","ST6rBsxjQT");
 // Check connection
 if (!$db) {
     echo("Connection failed: " . mysqli_connect_error());
